@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect('mongodb://localhost:27017/mern-app')
+mongoose.connect('mongodb+srv://bervalinem0raa:Bev12345@mern-stack.tkcifv6.mongodb.net/?retryWrites=true&w=majority&appName=mern-stack')
   .then(() => {
     console.log('DB Connected!');
   })
